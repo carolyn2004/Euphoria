@@ -11,7 +11,7 @@ Music Streaming Mobile Application
 ![image](https://user-images.githubusercontent.com/100062535/154895023-8ec434df-33d0-4ddd-9bd5-7dd564ef5e30.png)
 
 # Music Player Page
-![image](https://user-images.githubusercontent.com/100062535/154895248-36b3de02-d55c-4a23-a8de-fdb4dea4edf2.png)
+![image](https://user-images.githubusercontent.com/100062535/154895848-a2d9b040-2ba4-4734-9999-86aca24cf8b6.png)
 
 # Favourites Page
 ![image](https://user-images.githubusercontent.com/100062535/154895338-7656a87e-75a0-4d94-a7ff-bc4dc6ded4df.png)
