@@ -30,6 +30,7 @@ Music Streaming Mobile Application
 - Heart icons on homepage allow user to save their favourite songs. 
 - Users can delete songs in their favourites list individually and can clear them all at once.
 - Users can reshuffle, loop/repeat, play/pause, go to next/previous song, fastforward or backtrack with scrubbable scroll bar at the music player page.
-
+# Original UX design created on Adobe XD
+- https://drive.google.com/file/d/1FU1LOXPM0DlwvGchX3QoEA6a76HTEqEr/view?usp=sharing
 
 
