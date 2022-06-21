@@ -32,5 +32,5 @@ Music Streaming Mobile Application
 - Users can reshuffle, loop/repeat, play/pause, go to next/previous song, fastforward or backtrack with scrubbable scroll bar at the music player page.
 # Original UX design created on Adobe XD
 - https://drive.google.com/file/d/1FU1LOXPM0DlwvGchX3QoEA6a76HTEqEr/view?usp=sharing
-
+- https://www.youtube.com/watch?v=0niZWor6p_Q
 
