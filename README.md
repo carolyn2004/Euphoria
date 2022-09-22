@@ -1,5 +1,5 @@
 # Euphoria 🎶 
-Music Streaming Mobile Application
+- Music Streaming Mobile Application
 
 # Music App Icon
 ![image](https://user-images.githubusercontent.com/100062535/154896043-02559a00-e534-4891-9de1-3f1a49cc4e96.png)
