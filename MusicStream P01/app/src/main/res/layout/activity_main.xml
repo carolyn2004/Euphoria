@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/S1001"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="36dp"
+        android:onClick="handleSelection"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/S1002"
+        app:layout_constraintEnd_toStartOf="@+id/txtTitle1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/michael_buble_collection" />
+
+    <TextView
+        android:id="@+id/txtTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:fontFamily="@font/hammersmith_one"
+        android:text="The Way You Look Tonight"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/add1"
+        app:layout_constraintStart_toEndOf="@+id/S1001"
+        app:layout_constraintTop_toTopOf="@+id/S1001" />
+
+    <TextView
+        android:id="@+id/txtArtiste1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/hammersmith_one"
+        android:text="Michael Buble"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintStart_toStartOf="@+id/txtTitle1"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle1" />
+
+    <ImageButton
+        android:id="@+id/S1002"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="handleSelection"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/S1003"
+        app:layout_constraintEnd_toStartOf="@+id/txtArtiste2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/S1001"
+        app:srcCompat="@drawable/billie_jean" />
+
+    <TextView
+        android:id="@+id/txtTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/hammersmith_one"
+        android:text="Billie Jean"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/txtArtiste2"
+        app:layout_constraintTop_toTopOf="@+id/S1002" />
+
+    <TextView
+        android:id="@+id/txtArtiste2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="118dp"
+        android:fontFamily="@font/hammersmith_one"
+        android:text="Michael Jackson"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toStartOf="@+id/add2"
+        app:layout_constraintStart_toEndOf="@+id/S1002"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle2" />
+
+    <ImageView
+        android:id="@+id/S1003"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="37dp"
+        android:onClick="handleSelection"
+        app:layout_constraintBottom_toTopOf="@+id/S1004"
+        app:layout_constraintEnd_toStartOf="@+id/txtArtiste3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/S1002"
+        app:srcCompat="@drawable/fallinlove" />
+
+    <TextView
+        android:id="@+id/txtTitle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/hammersmith_one"
+        android:text="Fly Me To The Moon"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/txtArtiste3"
+        app:layout_constraintTop_toTopOf="@+id/S1003" />
+
+    <TextView
+        android:id="@+id/txtArtiste3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="132dp"
+        android:fontFamily="@font/hammersmith_one"
+        android:text="Michael Buble"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toStartOf="@+id/add3"
+        app:layout_constraintStart_toEndOf="@+id/S1003"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle3" />
+
+    <ImageView
+        android:id="@+id/S1004"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="190dp"
+        android:onClick="handleSelection"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/txtTitle4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/S1003"
+        app:srcCompat="@drawable/letsfallinlove" />
+
+    <TextView
+        android:id="@+id/txtTitle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/hammersmith_one"
+        android:text="Let's Fall in Love for the Night"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/add4"
+        app:layout_constraintStart_toEndOf="@+id/S1004"
+        app:layout_constraintTop_toTopOf="@+id/S1004" />
+
+    <TextView
+        android:id="@+id/txtArtiste4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/hammersmith_one"
+        android:text="Finneas"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/txtTitle4"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle4" />
+
+    <ImageView
+        android:id="@+id/add1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="6dp"
+        android:contentDescription="S1001"
+        android:onClick="addToFavorite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtTitle1"
+        app:layout_constraintTop_toTopOf="@+id/S1001"
+        app:srcCompat="@drawable/ic_baseline_favorite_24" />
+
+    <ImageView
+        android:id="@+id/add2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="6dp"
+        android:contentDescription="S1002"
+        android:onClick="addToFavorite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtArtiste2"
+        app:layout_constraintTop_toTopOf="@+id/S1002"
+        app:srcCompat="@drawable/ic_baseline_favorite_24" />
+
+    <ImageView
+        android:id="@+id/add3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="6dp"
+        android:contentDescription="S1003"
+        android:onClick="addToFavorite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtArtiste3"
+        app:layout_constraintTop_toTopOf="@+id/S1003"
+        app:srcCompat="@drawable/ic_baseline_favorite_24" />
+
+    <ImageView
+        android:id="@+id/add4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="6dp"
+        android:contentDescription="S1004"
+        android:onClick="addToFavorite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtTitle4"
+        app:layout_constraintTop_toTopOf="@+id/S1004"
+        app:srcCompat="@drawable/ic_baseline_favorite_24" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:onClick="gotoFavoriteActivity"
+        android:text="Favorites"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
