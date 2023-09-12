@@ -31,3 +31,7 @@
 - Users can delete songs in their favourites list individually and can clear them all at once.
 - Users can reshuffle, loop/repeat, play/pause, go to next/previous song, fastforward or backtrack with scrubbable scroll bar at the music player page.
 
+# Application designed using Adobe XD 
+![image](https://github.com/carolyn2004/Euphoria/assets/100062535/b27de9cf-98bf-4725-b075-ce49c0666280)
+
+
