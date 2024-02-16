@@ -34,4 +34,13 @@
 # Application designed using Adobe XD 
 ![image](https://github.com/carolyn2004/Euphoria/assets/100062535/b27de9cf-98bf-4725-b075-ce49c0666280)
 
+# User Research
+![image](https://github.com/carolyn2004/Euphoria/assets/100062535/a277f114-658b-4a01-bfb3-55dd76b181a0)
+![image](https://github.com/carolyn2004/Euphoria/assets/100062535/c16caa16-cd4a-4dee-a388-44848a1b4a2c)
+![image](https://github.com/carolyn2004/Euphoria/assets/100062535/e2d927c0-1a92-4b6d-a4d1-f4b5e224d0f6)
+
+
+
+
+
 
